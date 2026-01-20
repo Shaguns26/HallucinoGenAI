@@ -18,6 +18,7 @@ We cannot rely on an LLM to police itself (self-correction often fails). **Hallu
 1.  **Factual (Entailment):** Safe to deploy.
 2.  **Irrelevant (Neutral):** Off-topic but harmless.
 3.  **Hallucination (Contradiction):** **CRITICAL RISK** - Must be blocked.
+<img width="2816" height="1536" alt="image" src="https://github.com/user-attachments/assets/051a09b4-4c2d-42c6-bdf7-2416588f749b" />
 
 ---
 
@@ -111,6 +112,7 @@ You don't need to deploy this to the Google Web Store to put it on your portfoli
 * Right Click -> **"Check for Hallucinations"**.
 * Show the Alert popping up: **"Status: Hallucination (Risk: 35%)"**.
 <img width="3941" height="1090" alt="image" src="https://github.com/user-attachments/assets/27ce2d65-54bf-43e6-adca-b7f16846f311" />
+
 ---
 
 ## 📚 Further Reading
