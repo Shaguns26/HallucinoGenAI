@@ -82,6 +82,41 @@ The notebook `HallucinoGenAI_Hallucination_Detection.ipynb` is self-contained. I
 * **Safety:** Optimized for **95% Recall** on Hallucinations via Threshold Tuning.
 * **Innovation:** Implemented **Hard Negative Mining** and **Weighted Loss Training** to solve the "Imbalanced Risk" problem.
 
+### **How to Run the Chrome Plug-In**
+
+You don't need to deploy this to the Google Web Store to put it on your portfolio. You can run it locally in "Developer Mode."
+
+1. **Run Backend:**
+* Open terminal: `pip install fastapi uvicorn torch transformers`
+* Run: `uvicorn app:app --reload`
+* Keep this terminal open!
+
+
+2. **Load Extension:**
+* Open Chrome -> Go to `chrome://extensions/`
+* Toggle **"Developer mode"** (Top Right).
+* Click **"Load unpacked"** and select your `extension` folder.
+
+
+3. **The Demo Video (For LinkedIn/Portfolio):**
+* Open a Wikipedia page about Apollo 11.
+* ouble-click `demo_page.html` to open the test page). It will open in Chrome.
+* Go to Wikipedia (in a different tab), copy the Apollo 11 text into the big white box.
+* Copy a paragraph into the text editor (test page) and **change the date to 1995** (create a lie).
+* **Run the Extension:**
+* Highlight the text **inside that box**.
+* Right Click -> **"Check for Hallucinations"**.
+* The Alert will pop up.
+* Highlight the real text + your lie.
+* Right Click -> **"Check for Hallucinations"**.
+* Show the Alert popping up: **"Status: Hallucination (Risk: 35%)"**.
+<img width="3941" height="1090" alt="image" src="https://github.com/user-attachments/assets/27ce2d65-54bf-43e6-adca-b7f16846f311" />
+---
+
+## 📚 Further Reading
+
+**Read the full technical case study on Medium:
+[HallucinoGenAI: Engineering Trust and Automating Hallucination Detection in Large Language Models](https://medium.com/@shagunsharma0926/hallucinogenai-engineering-trust-and-automating-hallucination-detection-in-large-language-models-55c61f5b8ad2?postPublishedType=initial)**
 ---
 
 ## 👤 Author
